@@ -1,0 +1,7 @@
+@mixin lightmode() {
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --button-color: #3498db;
+  --hover-button-color: #2a84be;
+  --button-text-color: #fff;
+}

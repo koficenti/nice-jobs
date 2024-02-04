@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'styles/variables_light';
+@import 'styles/variables_dark';
+
+[data-theme='light'] {
+  @include lightmode();
+}
+[data-theme='dark'] {
+  @include darkmode();
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
