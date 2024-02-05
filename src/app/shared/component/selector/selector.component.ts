@@ -3,7 +3,7 @@ import {faCaretDown} from '@fortawesome/free-solid-svg-icons'
 import {FaIconComponent} from '@fortawesome/angular-fontawesome'
 
 @Component({
-  selector: 'app-selector',
+  selector: 'Selector',
   standalone: true,
   imports: [FaIconComponent],
   template: `
@@ -27,7 +27,7 @@ import {FaIconComponent} from '@fortawesome/angular-fontawesome'
       </ul>
     </a>
   `,
-  styles: `:host{ @apply rounded-full cursor-pointer ; }`,
+  styles: `:host{ @apply rounded-full cursor-pointer mb-1; }`,
 })
 export class SelectorComponent {
   protected readonly faCaretDown = faCaretDown

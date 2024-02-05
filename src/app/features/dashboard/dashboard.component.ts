@@ -13,7 +13,6 @@ import {FooterComponent} from '../../shared/component/footer/footer.component'
     <dashboard-header></dashboard-header>
     <dashboard-filters></dashboard-filters>
     <dashboard-jobs></dashboard-jobs>
-
     <app-footer></app-footer>
   `,
   styles: ``,

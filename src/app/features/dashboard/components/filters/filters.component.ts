@@ -8,20 +8,20 @@ import {SelectorComponent} from '../../../../shared/component/selector/selector.
   standalone: true,
   imports: [FaIconComponent, SelectorComponent],
   template: `
-    <app-selector [options]="['Beginner', 'Intermediate', 'Advanced']"
-      >Experience Level</app-selector
+    <Selector [options]="['Beginner', 'Intermediate', 'Advanced']"
+      >Experience Level</Selector
     >
-    <app-selector
+    <Selector
       bgColor="bg-blue-200"
       [options]="['> 10', '> 20', '> 30', '> 40', 'Anywhere']"
-      >Within 35 miles</app-selector
+      >Within 35 miles</Selector
     >
-    <app-selector
+    <Selector
       [options]="['> $15', '> $25', '> $35', '> $45', '> $55', '$55 and above']"
-      >Hourly Rate</app-selector
+      >Hourly Rate</Selector
     >
-    <app-selector [options]="['This Week', 'This Month', 'Oldest', 'Newest']"
-      >Post Date</app-selector
+    <Selector [options]="['This Week', 'This Month', 'Oldest', 'Newest']"
+      >Post Date</Selector
     >
   `,
   styles: `
