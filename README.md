@@ -1,27 +1,23 @@
-# NiceJobs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## NiceJobs:
 
-## Development server
+### Currently working on this project...
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### Description:
+This project is an experiment. I aim to slowly polish it over time.
 
-## Code scaffolding
+Starting from an ugly duckling, and turning it to a beautiful enterprise level swan.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### This project uses:
+Tailwind, Sass, Typescript, Angular, Storybook (soon), ngrx (soon) and possibly other libraries later on.
 
-## Build
+The backend doesn't exist yet, but it will most likely be written in Kotlin (either Ktor or Spring Boot)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Latest Screenshots:
 
-## Running unit tests
+![dashboard-2-6-2024.png](screenshots%2Fdashboard-2-6-2024.png)
+![profile-2-6-2024.png](screenshots%2Fprofile-2-6-2024.png)
+![login.png](screenshots%2Flogin.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Thanks for taking a look!

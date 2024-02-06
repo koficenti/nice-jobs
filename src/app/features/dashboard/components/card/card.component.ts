@@ -22,7 +22,7 @@ import {FaIconComponent} from '@fortawesome/angular-fontawesome'
         </div>
         <p>Full Stack Developer</p>
         <div class="py-2 opacity-60 text-sm">
-          I am one of the best programmers ever...
+          I am the best programmer ever...
         </div>
         <div class="flex gap-2 text-[10pt] sm:text-sm">
           <div class="bg-gray-200 rounded-md w-fit px-2 py-1 mt-2">
