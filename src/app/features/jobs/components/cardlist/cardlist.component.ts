@@ -2,16 +2,16 @@ import {Component} from '@angular/core'
 import {CardComponent} from '../card/card.component'
 
 @Component({
-  selector: 'dashboard-cardlist',
+  selector: 'jobs-cardlist',
   standalone: true,
   imports: [CardComponent],
   template: `
-    <dashboard-card></dashboard-card>
-    <dashboard-card></dashboard-card>
-    <dashboard-card></dashboard-card>
-    <dashboard-card></dashboard-card>
-    <dashboard-card></dashboard-card>
-    <dashboard-card></dashboard-card>
+    <jobs-card></jobs-card>
+    <jobs-card></jobs-card>
+    <jobs-card></jobs-card>
+    <jobs-card></jobs-card>
+    <jobs-card></jobs-card>
+    <jobs-card></jobs-card>
   `,
   styles: `
     :host {

@@ -5,11 +5,11 @@ import {InputComponent} from '../../../../shared/component/input/input.component
 import {faSearch} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
-  selector: 'dashboard-header',
+  selector: 'jobs-header',
   standalone: true,
   imports: [ButtonComponent, FaIconComponent, InputComponent],
   template: `
-    <h1 class="text-2xl text-center pt-20">Let's find you a professional!</h1>
+    <h1 class="text-2xl text-center pt-10">Let's find you a professional!</h1>
     <div
       class="flex flex-col md:flex-row gap-5 pt-8 justify-center place-items-center"
     >

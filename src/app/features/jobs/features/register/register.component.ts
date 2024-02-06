@@ -1,7 +1,7 @@
 import {Component} from '@angular/core'
-import {InputComponent} from '../../shared/component/input/input.component'
-import {ButtonComponent} from '../../shared/component/button/button.component'
-import {FooterComponent} from '../../shared/component/footer/footer.component'
+import {InputComponent} from '../../../../shared/component/input/input.component'
+import {ButtonComponent} from '../../../../shared/component/button/button.component'
+import {FooterComponent} from '../../../../shared/component/footer/footer.component'
 
 @Component({
   selector: 'app-register',

@@ -4,7 +4,7 @@ import {FaIconComponent} from '@fortawesome/angular-fontawesome'
 import {SelectorOptionType, SelectorType} from '../../types/selector.type'
 
 @Component({
-  selector: 'dashboard-selector',
+  selector: 'jobs-selector',
   standalone: true,
   imports: [FaIconComponent],
   template: `

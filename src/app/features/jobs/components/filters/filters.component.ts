@@ -3,14 +3,14 @@ import {SelectorComponent} from '../selector/selector.component'
 import {SelectorType} from '../../types/selector.type'
 
 @Component({
-  selector: 'dashboard-filters',
+  selector: 'jobs-filters',
   standalone: true,
   imports: [SelectorComponent],
   template: `
-    <dashboard-selector [selector]="ExperienceLevel"></dashboard-selector>
-    <dashboard-selector [selector]="HourlyRate"></dashboard-selector>
-    <dashboard-selector [selector]="PostDate"></dashboard-selector>
-    <dashboard-selector [selector]="MilesWithin"></dashboard-selector>
+    <jobs-selector [selector]="ExperienceLevel"></jobs-selector>
+    <jobs-selector [selector]="HourlyRate"></jobs-selector>
+    <jobs-selector [selector]="PostDate"></jobs-selector>
+    <jobs-selector [selector]="MilesWithin"></jobs-selector>
   `,
   styles: `
     :host {

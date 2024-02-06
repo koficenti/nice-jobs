@@ -8,7 +8,7 @@ import {
 import {TagComponent} from '../../../../shared/component/tag/tag.component'
 
 @Component({
-  selector: 'dashboard-overview',
+  selector: 'jobs-overview',
   standalone: true,
   imports: [FaIconComponent, TagComponent],
   template: `

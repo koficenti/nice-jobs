@@ -1,13 +1,14 @@
 import {Component} from '@angular/core'
-import {FooterComponent} from '../../shared/component/footer/footer.component'
+import {RouterOutlet} from '@angular/router'
+import {FooterComponent} from '../../../../shared/component/footer/footer.component'
 import {FaIconComponent} from '@fortawesome/angular-fontawesome'
 import {faEdit} from '@fortawesome/free-solid-svg-icons'
-import {ButtonComponent} from '../../shared/component/button/button.component'
+import {ButtonComponent} from '../../../../shared/component/button/button.component'
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [FooterComponent, FaIconComponent, ButtonComponent],
+  imports: [RouterOutlet, FooterComponent, FaIconComponent, ButtonComponent],
   template: `
     <div class="w-full h-screen py-20 flex justify-center place-items-center">
       <div
@@ -67,6 +68,8 @@ import {ButtonComponent} from '../../shared/component/button/button.component'
     </div>
 
     <app-footer></app-footer>
+
+    <router-outlet></router-outlet>
   `,
   styles: `
 

@@ -7,7 +7,7 @@ import {
 import {FaIconComponent} from '@fortawesome/angular-fontawesome'
 
 @Component({
-  selector: 'dashboard-card',
+  selector: 'jobs-card',
   standalone: true,
   imports: [FaIconComponent],
   template: `
