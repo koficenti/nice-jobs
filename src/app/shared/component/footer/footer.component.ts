@@ -7,7 +7,7 @@ import {FaIconComponent} from '@fortawesome/angular-fontawesome'
   standalone: true,
   imports: [FaIconComponent],
   template: `
-    <div class="bg-gray-200 mt-20">
+    <div class="bg-gray-200 py-10">
       <div class="flex justify-between px-8 md:px-14 pt-10">
         <div class="flex flex-col gap-6">
           <div class="flex gap-5">
@@ -41,7 +41,7 @@ import {FaIconComponent} from '@fortawesome/angular-fontawesome'
   `,
   styles: `
     :host {
-      @apply w-full bg-black;
+      @apply w-full;
     }
   `,
 })

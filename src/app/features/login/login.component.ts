@@ -8,9 +8,7 @@ import {InputComponent} from '../../shared/component/input/input.component'
   standalone: true,
   imports: [ButtonComponent, FooterComponent, InputComponent],
   template: `
-    <div
-      class="bg-slate-100 w-full h-screen flex justify-center place-items-center"
-    >
+    <div class="w-full h-screen flex justify-center place-items-center">
       <div
         class="bg-white shadow min-w-[90%] md:min-w-[420px] w-1/4 h-fit py-10 px-10 flex flex-col gap-5 text-md justify-center text-sm"
       >

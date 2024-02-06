@@ -7,7 +7,7 @@ import {OverviewComponent} from '../overview/overview.component'
   standalone: true,
   imports: [CardlistComponent, OverviewComponent],
   template: `
-    <dashboard-cardlist></dashboard-cardlist>
+    <dashboard-cardlist class="mb-20"></dashboard-cardlist>
     <dashboard-overview></dashboard-overview>
   `,
   styles: `:host{
